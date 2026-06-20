@@ -135,14 +135,18 @@ margin-bottom:40px;
     height: 400px;
 border-radius: 6px;
 }
-.hero-left{
-    width:100%;
+.hero-left {
+    width: 100%;
+    min-height: 200vh;
+    padding: 30px;
+    color: #D4AF37;
 
-    background: url("image/copy.png") center/cover no-repeat;
+    background-image: url("image/copy.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    padding:30px;
-    color:#D4AF37;
-    min-height:200vh;
+    position: relative;
 }
 /* .hero-left{
 width:100%;
