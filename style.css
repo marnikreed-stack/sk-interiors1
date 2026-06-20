@@ -136,8 +136,16 @@ margin-bottom:40px;
 border-radius: 6px;
 }
 .hero-left{
+    width:100%;
+
+    background: url("image/copy.png") center/cover no-repeat;
+
+    padding:30px;
+    color:#D4AF37;
+    min-height:200vh;
+}
+/* .hero-left{
 width:100%;
-/* background:#670225; */
 background: linear-gradient(
     135deg,
     #000000 0%,
@@ -153,7 +161,7 @@ color: #D4AF37;
     overflow: hidden;
 
 border-radius:0;           
-}
+} */
  
 
 .hero-top{
